@@ -2,8 +2,8 @@ import {registerBidder} from 'src/adapters/bidderFactory';
 import * as utils from 'src/utils';
 
 const BIDDER_CODE = 'smartyads';
-const URL = '//ssp-nj.webtradehub.com/?c=o&m=multi';
-const URL_SYNC = '//ssp-nj.webtradehub.com/?c=o&m=cookie';
+const URL = 'http://ssp-nj.webtradehub.com/?c=o&m=multi';
+const URL_SYNC = 'http://ssp-nj.webtradehub.com/?c=o&m=cookie';
 
 export const spec = {
   code: BIDDER_CODE,
