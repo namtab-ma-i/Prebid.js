@@ -38,7 +38,7 @@ export const spec = {
       let placement = {};
       placement['placementId'] = bid.params.placement_id;
       placement['bidId'] = bid.bidId;
-      placement['traffic'] = bid.traffic || 'banner';
+      placement['traffic'] = bid.traffic;
       placements.push(placement);
     }
     return {
